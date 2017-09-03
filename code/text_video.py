@@ -1,4 +1,4 @@
-from image_utils import ImageText
+from image_utils import ImageTextB
 import subprocess
 
 color = (229, 255, 204)
