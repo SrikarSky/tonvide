@@ -16,7 +16,7 @@ f.close()
 #know the size of the wrote text
 i = 1;
 for line in lines:
-    img = ImageText("input/IMG_9263_b.JPG", background=(255, 255, 255, 100)) # 200 = alpha
+    img = ImageTextB("input/IMG_9263_b.JPG", background=(255, 255, 255, 100)) # 200 = alpha
     img.write_text_box((200, 159), line, box_width=2800, font_filename=font,
                            font_size=120, color=color)
     img.save('output/frame'+ str(i) + '.jpg')
